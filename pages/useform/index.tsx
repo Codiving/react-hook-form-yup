@@ -74,6 +74,14 @@ const UseForm = () => {
                 "email : @gmail.com 만 가능"
               ]}
             />
+
+            <Description
+              title="코드 확인 시 주의사항"
+              descriptions={[
+                "react, react-hook-form, react-hook-form + yup",
+                "3가지로 구현하였으나 100% 동일한 기능은 아닐 수 있음."
+              ]}
+            />
           </div>
         )}
       </div>
