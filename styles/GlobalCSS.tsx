@@ -128,6 +128,17 @@ const resetCSS = css`
   * {
     box-sizing: border-box;
   }
+  #__next {
+    min-height: 100vh;
+  }
+  a {
+    text-decoration: none;
+    outline: none;
+  }
+  a:hover,
+  a:active {
+    text-decoration: none;
+  }
 `;
 
 const GlobalCSS = () => {
