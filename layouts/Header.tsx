@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import Link from "next/link";
 
-const Routes = ["useform", "useFormContext", "usewatch", "usefieldarray"];
+const Routes = ["useForm", "useFormContext", "useWatch", "useFieldArray"];
 
 const UIHeader = styled("header", {
   label: "Header"
@@ -53,7 +53,7 @@ const Header = () => {
         <UIUl>
           {Routes.map(route => (
             <UILi key={route}>
-              <Link href={route}>
+              <Link href={route.toLowerCase()}>
                 <A>{route}</A>
               </Link>
             </UILi>
