@@ -77,6 +77,14 @@ const Yup = () => {
         ]}
         mt={20}
       />
+      <br />
+      <a
+        href="https://github.com/Codiving/react-hook-form-yup/blob/main/rhf/useform/Yup.tsx"
+        target="_blank"
+        rel="noreferrer"
+      >
+        코드 보러 가기
+      </a>
     </>
   );
 };

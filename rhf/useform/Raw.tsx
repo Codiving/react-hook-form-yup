@@ -129,6 +129,14 @@ const Raw = () => {
           "따라서 제출 눌렀을 때도 한번 더 검사를 해주어야 한다."
         ]}
       />
+      <br />
+      <a
+        href="https://github.com/Codiving/react-hook-form-yup/blob/main/rhf/useform/Raw.tsx"
+        target="_blank"
+        rel="noreferrer"
+      >
+        코드 보러 가기
+      </a>
     </>
   );
 };

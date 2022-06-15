@@ -101,6 +101,14 @@ const ReactHookForm = () => {
           "모든 validation 처리를 할 수 있으나 깔끔하게 되지 않는다."
         ]}
       />
+      <br />
+      <a
+        href="https://github.com/Codiving/react-hook-form-yup/blob/main/rhf/useform/Rhf.tsx"
+        target="_blank"
+        rel="noreferrer"
+      >
+        코드 보러 가기
+      </a>
     </>
   );
 };
